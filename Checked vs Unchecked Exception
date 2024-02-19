@@ -1,0 +1,15 @@
+In Java, exceptions are categorized into two main types: checked exceptions and unchecked exceptions.
+
+Checked Exceptions:
+
+Checked exceptions are exceptions that are checked at compile-time.
+They are subclasses of Exception but not subclasses of RuntimeException.
+The developer is required to handle these exceptions explicitly either by using a try-catch block or by declaring the exception to be thrown (using the throws keyword) in the method signature.
+Examples of checked exceptions in Java include IOException, SQLException, ClassNotFoundException, etc.
+Unchecked Exceptions:
+
+Unchecked exceptions, also known as runtime exceptions, are not checked at compile-time.
+They are subclasses of RuntimeException or Error.
+The developer is not required to handle unchecked exceptions explicitly, although they can choose to do so.
+Examples of unchecked exceptions in Java include NullPointerException, ArrayIndexOutOfBoundsException, ArithmeticException, IllegalArgumentException, etc.
+In summary, the main difference between checked and unchecked exceptions lies in when they are checked by the compiler. Checked exceptions are checked at compile-time and must be handled explicitly, whereas unchecked exceptions are not checked at compile-time, and handling them is optional.
